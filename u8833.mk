@@ -66,10 +66,6 @@ PRODUCT_PACKAGES += \
    libqcomfm_jni \
    qcom.fmradio
 
-# Music
-PRODUCT_PACKAGES += \
-   Eleven
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
 
 $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
